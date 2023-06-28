@@ -1,0 +1,47 @@
+.productsList {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 2rem;
+  margin: auto;
+}
+
+.productsList li {
+  border: 4px solid rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+.productsList h5 {
+  font-size: 1.3rem;
+  color: #c32d67;
+}
+
+.productsList h6 {
+  font-size: 1rem;
+}
+
+.stdList {
+  line-height: 1px;
+}
+
+.stdList li {
+  border: none;
+}
+
+.price {
+  float: right;
+}
+
+.productsList button {
+  margin-top: auto;
+  align-self: center;
+}
+
+.divider {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
