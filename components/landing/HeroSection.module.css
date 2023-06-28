@@ -1,0 +1,32 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 800px;
+}
+
+.content img {
+  max-height: 300px;
+}
+
+.content ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.purple {
+  color: #c32d67;
+}

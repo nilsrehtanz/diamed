@@ -1,0 +1,14 @@
+.button {
+  border-radius: 15px;
+  background: linear-gradient(
+    270deg,
+    #a323b0 0%,
+    rgba(129, 48, 157, 0.94) 29.69%,
+    rgba(236, 59, 135, 0.96) 57.29%,
+    #eda954 100%
+  );
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  font-size: 1.3rem;
+}
