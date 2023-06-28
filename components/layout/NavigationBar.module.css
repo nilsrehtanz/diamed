@@ -1,0 +1,23 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar {
+  height: 70px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  top: 0px;
+  color: black;
+}
+
+.ul {
+
+}
