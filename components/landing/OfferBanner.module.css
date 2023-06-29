@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    #920bd2 0%,
+    rgba(255, 10, 10, 0.68) 25.52%,
+    #ed468a 100%
+  );
+  padding: 10px;
+}
+
+.container button {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  color: rgba(236, 59, 135);
+}
