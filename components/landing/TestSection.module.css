@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  background: rgba(237, 152, 93, 0.1);
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.container ul {
+  color: #c32d67;
+}
+
+.container img {
+  max-width: 250px;
+}
+
+.container span {
+  color: gray;
+}
