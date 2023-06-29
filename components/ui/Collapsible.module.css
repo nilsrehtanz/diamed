@@ -1,0 +1,40 @@
+.container hr {
+  opacity: 50%;
+}
+
+.container h4 {
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.container p {
+  margin-top: 1rem;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.questionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.questionContainer svg {
+  color: #c32d67;
+  flex-shrink: 0;
+}
+
+.questionSelected {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  color: #c32d67;
+}
+
+.questionSelected svg {
+  transform: rotate(180deg);
+}
