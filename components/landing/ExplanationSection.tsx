@@ -39,6 +39,10 @@ function ExplanationSection() {
     padding: "0px",
   };
 
+  const handleClick = () => {
+    console.log("Button clicked!");
+  };
+
   return (
     <div className={classes.container}>
       <div className={classes.gridContainer}>
@@ -160,6 +164,11 @@ function ExplanationSection() {
           <img src="howcanapersongetanstd.svg" alt="" />
         </div>
       </div>
+      <p>Have unanswered questions? Get in touch today!</p>
+      <Button
+        text="Contact us"
+        onClick={handleClick}
+      ></Button>
     </div>
   );
 }
