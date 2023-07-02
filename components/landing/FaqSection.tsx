@@ -13,7 +13,7 @@ const QUESTIONS = [
     id: "2",
     question: "How does diamed STD testing work?",
     answer:
-      "After you provide a saliva sample, diamed uses NV diamond chips to analyse your sample for viruses that can be transmitted sexually. This means ... . We then turn those results into ... . Note that diamed's proprietary STD testing solution is a cutting-edge and novel approach not provided in Germany, yet.",
+      "Diamed employs nanodiamonds with NV centers to analyze your saliva samples for sexually transmitted viruses. The nanodiamonds interact with viral particles, enabling precise detection and quantification. Advanced imaging techniques capture these interactions, and the resulting fluorescence measurements provide accurate results. Our cutting-edge STD testing solution, utilizing nanodiamond technology, sets the benchmark as a pioneering approach, being the first of its kind available in Germany.",
   },
   {
     id: "3",
@@ -27,7 +27,7 @@ const QUESTIONS = [
     question:
       "How do I get my diamed reports and how long does it take?",
     answer:
-      "To begin, visit www.diamed.online. As soon as you have successfully registered your testing kit, provided a saliva sample, and put the kit in the mail, we will analyse your sample. Once your sample reaches the lab, it is typically processed within a few hours, with results then delivered to your secure online account.",
+      "To initiate the process, please access www.diamed.online. Once you have registered your testing kit and provided a saliva sample, securely mail the kit to our laboratory. Upon receipt, your sample will undergo an optimized processing protocol. Our dedicated team is committed to minimizing processing time to provide timely results. Following the completion of the analysis, the results will be promptly delivered and made available through your secure online account.",
   },
   {
     id: "5",
@@ -40,7 +40,7 @@ const QUESTIONS = [
     question:
       "What do I do if the test result is positive / reactive?",
     answer:
-      "You have tested positive/ reactive for a STI - no need to panic! Our doctors will be in touch with you soon and will discuss the next steps together with you.",
+      "You have tested positive/ reactive for an STI - no need to panic! Our team of experienced doctors will be in touch with you to offer their guidance, provide a thorough diagnosis and discuss the necessary steps moving forward.",
   },
 ];
 

@@ -7,12 +7,12 @@ const NavigationBar = () => {
   return (
     <nav className={classes.navbar}>
       <div className={classes.container}>
-        <p>Logo</p>
-        <ul>
-            <li>Learn</li>
-            <li>Sign In</li>
-            <li>Register Kit</li>
-        </ul>
+        <img src="diamedlogo.svg"></img>
+        <div className={classes.CTA}>
+            <a href="/learn" className={classes.item}>Learn</a>
+            <a href="/signIn" className={classes.item}>Sign In</a>
+            <a href="/registerKit" className={classes.item}>Register Kit</a>
+        </div>
       </div>
     </nav>
   );
