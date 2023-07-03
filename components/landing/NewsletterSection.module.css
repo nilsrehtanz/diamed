@@ -1,10 +1,15 @@
-.container {
+.background {
   background: linear-gradient(
     270deg,
     #6a3892 0%,
     #df5050 73.96%,
     #c02d68 100%
   );
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
   color: white;
   padding: 4rem;
 }

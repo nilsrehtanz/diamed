@@ -1,15 +1,19 @@
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  color: white;
+.background {
   background: linear-gradient(
     90deg,
     #920bd2 0%,
     rgba(255, 10, 10, 0.68) 25.52%,
     #ed468a 100%
   );
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+  
   padding: 10px;
 }
 

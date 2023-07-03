@@ -1,3 +1,8 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
 .container h3 {
   background-color: a;
   border: 5px solid #c32d67;

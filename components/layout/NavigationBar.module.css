@@ -1,27 +1,22 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  height: 100%;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: bisque;
-}
-
-.container img {
-background-color: #000;}
-
 .navbar {
-  height: 80px;
+  height: 100%;
   background-color: rgb(0, 0, 0);
   position: sticky;
   width: 100%;
   z-index: 10000;
   top: 0px;
-  color: black;
+  background-color: bisque;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1250px;
+  background-color: bisque;
 }
 
 .CTA {
@@ -29,7 +24,6 @@ background-color: #000;}
   font-size: 22px;
   font-family: Inter;
   font-weight: 600;
-  background-color: aqua;
 }
 
 .item {
