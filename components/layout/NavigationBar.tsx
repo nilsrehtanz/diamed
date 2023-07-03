@@ -14,7 +14,7 @@ const NavigationBar = () => {
           <a href="/learn" className={classes.item}>
             Learn
           </a>
-          <a href="/signIn" className={classes.item}>
+          <a href="/login" className={classes.item}>
             Sign In
           </a>
           <a href="/registerKit" className={classes.item}>
