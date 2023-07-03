@@ -17,7 +17,7 @@ const NavigationBar = () => {
           <a href="/login" className={classes.item}>
             Sign In
           </a>
-          <a href="/registerKit" className={classes.item}>
+          <a href="/register" className={classes.item}>
             Register Kit
           </a>
         </div>
