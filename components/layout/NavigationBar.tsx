@@ -7,19 +7,19 @@ const NavigationBar = () => {
   return (
     <nav className={classes.navbar}>
       <div className={classes.container}>
-        <a href="/">
+        <Link href="/">
           <img src="diamedlogo.svg" alt="Logo" />
-        </a>
+        </Link>
         <div className={classes.CTA}>
-          <a href="/learn" className={classes.item}>
+          <Link href="/learn" className={classes.item}>
             Learn
-          </a>
-          <a href="/login" className={classes.item}>
+          </Link>
+          <Link href="/login" className={classes.item}>
             Sign In
-          </a>
-          <a href="/register" className={classes.item}>
+          </Link>
+          <Link href="/register" className={classes.item}>
             Register Kit
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

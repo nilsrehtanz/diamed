@@ -21,7 +21,7 @@ function TestSection() {
           <li>Painless & simple procedure</li>
         </ul>
       </div>
-      <img src="injection.svg" alt="" />
+      <img src="injection.svg" alt="Injection" />
     </div>
   );
 }

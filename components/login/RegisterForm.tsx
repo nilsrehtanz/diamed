@@ -4,7 +4,7 @@ import Link from "next/link";
 function RegisterForm() {
   return (
     <div className={classes.container}>
-        <img src="DiamedTestKit.svg" alt="" />
+      <img src="DiamedTestKit.svg" alt="Test kit" />
       <form className={classes.form}>
         <h1>Register your kit</h1>
         <p>

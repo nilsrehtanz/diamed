@@ -18,7 +18,7 @@ function LoginForm() {
         </p>
         <p>Forgot your password?</p>
         <p>
-          Dont't have an account? <Link href="/register">Sign up</Link>
+          Dont&apos;t have an account? <Link href="/register">Sign up</Link>
         </p>
       </form>
     </div>

@@ -13,11 +13,11 @@ function HeroSection() {
         Introducing quantum technology for at-home STD testing
       </p>
       <h1>
-        It's time for STD testing <br />
+        It&apos;s time for STD testing <br />
         to be <span className={classes.purple}>private.</span>
       </h1>
       <div className={classes.content}>
-        <img src="DiamedTestKit.svg" alt="" />
+        <img src="DiamedTestKit.svg" alt="Test Kit" />
         <ul>
           <li>
             Our mission is to combat the{" "}
@@ -31,7 +31,7 @@ function HeroSection() {
           </li>
           <li>
             Using <span className={classes.purple}>quantum diamond chips</span>,
-            we're the first in Germany to enable{" "}
+            we&apos;re the first in Germany to enable{" "}
             <span className={classes.purple}>
               HIV testing based on a saliva sample
             </span>{" "}

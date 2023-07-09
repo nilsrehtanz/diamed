@@ -6,7 +6,7 @@ function Footer() {
     <footer className={classes.footer}>
       <div className={classes.gridContainer}>
         <div className={classes.gridItem}>
-          <img src="diamedlogo.svg"></img>
+          <img src="diamedlogo.svg" alt="Logo"></img>
           <p>2023 diamed. All rights reserved.</p>
         </div>
         <div className={classes.gridItem}>
@@ -26,20 +26,30 @@ function Footer() {
       <div className={classes.lowerPart}>
         <div className={classes.socialMedia}>
           <div className={classes.location}>
-            <img src="GermanFlag.svg"></img>
+            <img
+              src="GermanFlag.svg"
+              alt="German Flag"
+            ></img>
             <p>Germany</p>
           </div>
 
           <div>
-            <img src="InstagramIcon.svg"></img>
-            <img src="LinkedInIcon.svg"></img>
+            <img
+              src="InstagramIcon.svg"
+              alt="Instagram"
+            ></img>
+            <img
+              src="LinkedInIcon.svg"
+              alt="Linkedin"
+            ></img>
           </div>
         </div>
 
         <div className={classes.partners}>
-          <img src="TUMLogo.svg"></img>
+          <img src="TUMLogo.svg" alt="TUM"></img>
           <img
             src="UNTERNEHMERTUMLogo.svg"
+            alt="UnternehmerTUM"
             className={classes.unternehmerLogo}
           ></img>
         </div>

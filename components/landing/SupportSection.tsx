@@ -7,7 +7,7 @@ function SupportSection() {
     <div className={classes.container}>
       <div className={classes.bar}></div>
       <div className={classes.divider}>
-        <img src="HIVDonate.svg" alt="" />
+        <img src="HIVDonate.svg" alt="Donate for HIV" />
         <div>
           <h2>Support our HIV and AIDS research</h2>
           <p>

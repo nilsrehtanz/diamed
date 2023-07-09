@@ -60,7 +60,7 @@ function ExplanationSection() {
           </div>
         </div>
         <div className={classes.gridItem} style={removePadding}>
-          <img src="howcanapersongetanstd.svg" alt="" />
+          <img src="howcanapersongetanstd.svg" alt="Person test std" />
         </div>
         <div className={classes.gridItem} style={secondStyle}>
           <h2>Symptoms of STDs</h2>
@@ -81,7 +81,7 @@ function ExplanationSection() {
             <p>
               Experience the comfort and convenience of home-based testing,
               allowing you to maintain privacy and flexibility. With no need for
-              in-person visits, you'll receive a comprehensive sample collection
+              in-person visits, you&apos;ll receive a comprehensive sample collection
               kit and can conveniently provide your sample whenever works best
               for you.
             </p>
@@ -112,9 +112,9 @@ function ExplanationSection() {
         </div>
         <div className={classes.gridItem} style={eigthStyle}>
           <div>
-            <h2>What's included in your STD test kit?</h2>
+            <h2>What&apos;s included in your STD test kit?</h2>
             <p>
-              As part of our door-to-door service you'll receive everything you
+              As part of our door-to-door service you&apos;ll receive everything you
               need to collect your sample whilst enjoying complete privacy.
               Whenever your sample is ready for collection just send it back via
               postal service or throw it into one of our discreet collection
@@ -123,7 +123,7 @@ function ExplanationSection() {
           </div>
         </div>
         <div className={classes.gridItem} style={removePadding}>
-          <img src="howcanapersongetanstd.svg" alt="" />
+          <img src="howcanapersongetanstd.svg" alt="Person test std" />
         </div>
       </div>
       <p>Have unanswered questions? Get in touch today!</p>
