@@ -13,7 +13,7 @@
   align-items: center;
   gap: 2rem;
   color: white;
-  
+
   padding: 10px;
 }
 
@@ -24,4 +24,12 @@
   width: 100px;
   height: 40px;
   color: rgba(236, 59, 135);
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
 }

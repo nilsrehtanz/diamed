@@ -28,3 +28,9 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 700px) {
+  .gridItem {
+    flex: 0 0 100%;
+  }
+}

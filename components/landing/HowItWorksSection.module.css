@@ -10,3 +10,10 @@
   padding: 15px;
   margin-top: 2rem;
 }
+
+@media (max-width: 760px) {
+  .container {
+    padding: 10px;
+    text-align: center;
+  }
+}

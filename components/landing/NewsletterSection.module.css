@@ -41,3 +41,14 @@
   color: white;
   width: 100px;
 }
+
+@media (max-width: 760px) {
+  .container {
+    text-align: center;
+  }
+
+  .inputSection {
+    flex-direction: column;
+    padding: 10px;
+  }
+}

@@ -18,3 +18,11 @@
 .divider img {
   max-width: 300px;
 }
+
+@media (max-width: 760px) {
+  .divider {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+}
