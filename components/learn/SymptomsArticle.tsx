@@ -1,8 +1,8 @@
-import classes from "./StdArticle.module.css";
+import classes from "./SymptomsArticle.module.css";
 import React from "react";
 import Image from "next/image";
 
-const StdArticle: React.FC = () => {
+const SymptomsArticle: React.FC = () => {
   return (
     <div className={classes.container}>
       <h2 className={classes.title}>
@@ -181,4 +181,4 @@ const StdArticle: React.FC = () => {
   );
 };
 
-export default StdArticle;
+export default SymptomsArticle;
