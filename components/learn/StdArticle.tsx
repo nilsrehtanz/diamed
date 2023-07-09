@@ -5,14 +5,16 @@ import Image from "next/image";
 const StdArticle: React.FC = () => {
   return (
     <div className={classes.container}>
-      <h2 className={classes.title}>How do I know if I have an STI?</h2>
+      <h2 className={classes.title}>
+        How do I know if I have an STI?
+      </h2>
       <p className={classes.date}>14th Dec</p>
-      <p className={classes.text}> 
-        Did you have sex recently and now it&apos;s itching and
-        burning down there? Then it&apos;s possible that you have
-        contracted an STI. What exactly this is and how you
-        can find out whether your complaints are really an
-        STI, you will find out in this post.
+      <p className={classes.text}>
+        Did you have sex recently and now it&apos;s itching
+        and burning down there? Then it&apos;s possible that
+        you have contracted an STI. What exactly this is and
+        how you can find out whether your complaints are
+        really an STI, you will find out in this post.
       </p>
 
       <h3 className={classes.title}>Chlamydia</h3>
@@ -71,8 +73,8 @@ const StdArticle: React.FC = () => {
       <p>
         The secondary syphilis occurs after four to ten
         weeks. It has now spread everywhere through your
-        body&apos;s blood and lymphatic pathways. If you are in
-        this stage of syphilis infection, you are usually
+        body&apos;s blood and lymphatic pathways. If you are
+        in this stage of syphilis infection, you are usually
         struggling with fever, fatigue and headaches. Often
         a non-itchy rash follows, which occurs everywhere,
         but in most cases on the palms of the hands and
@@ -94,88 +96,86 @@ const StdArticle: React.FC = () => {
         the brain or spinal cord can lead to personality
         changes up to dementia.
       </p>
-      <h3 className={classes.title}>Gonorrhoe</h3>
+      <h3 className={classes.title}>Gonorrhea</h3>
       <p>
-        Gonorrhoe, auch als Tripper bekannt, ist eine
-        sexuell übertragbare Infektion, die durch Bakterien
-        namens Gonokokken verursacht wird. Symptome können 1
-        bis 14 Tage nach der Ansteckung auftreten und
-        beinhalten:
+        Gonorrhea, also known as the clap, is a sexually
+        transmitted infection caused by bacteria known as
+        gonococci. Symptoms can occur 1 to 14 days after
+        infection and include:
       </p>
       <ul>
-        <li>Brennende und juckende Entzündungen</li>
-        <li>Bildung von Eiter</li>
+        <li>Burning and itchy inflammations</li>
+        <li>Formation of pus</li>
         <li>
-          Milchig-trüber und später cremig-gelblicher
-          übelriechender Ausfluss (bei Infektionen der
-          männlichen Geschlechtsorgane oder der Harnröhre)
+          Milky-cloudy and later creamy-yellowish
+          foul-smelling discharge (in infections of the male
+          genital organs or the urethra)
         </li>
-        <li>Rötung und Schwellung der Harnröhrenmündung</li>
         <li>
-          Schmerzen beim Pinkeln, häufiger Harndrang,
-          übelriechender Ausfluss oder Schmierblutungen (bei
-          Infektionen der weiblichen Geschlechtsorgane)
+          Redness and swelling of the urethral opening
+        </li>
+        <li>
+          Pain during urination, frequent urination,
+          foul-smelling discharge or spotting (in infections
+          of the female genital organs)
         </li>
       </ul>
       <p>
-        Unbehandelt können Gonokokken weitere ernsthafte
-        Komplikationen verursachen, einschließlich
-        Entzündungen der Prostata, narbige Verklebungen in
-        den Samenleitern oder Eileitern,
-        Gelenksentzündungen, Hautveränderungen,
-        Herzklappenentzündungen oder Hirnhautentzündungen.
+        If left untreated, gonococci can cause further
+        serious complications, including inflammation of the
+        prostate, scarred adhesions in the vas deferens or
+        fallopian tubes, joint inflammations, skin changes,
+        heart valve inflammations, or meningitis.
       </p>
 
       <h3 className={classes.title}>Hepatitis C</h3>
       <p>
-        Hepatitis C ist eine Leberentzündung, die durch das
-        Hepatitis-C-Virus (HCV) verursacht wird und
-        hauptsächlich über das Blut übertragen wird.
-        Symptome können 3 Wochen bis 6 Monate nach der
-        Ansteckung auftreten und beinhalten:
+        Hepatitis C is a liver inflammation caused by the
+        Hepatitis C Virus (HCV) and is mainly transmitted
+        through the blood. Symptoms can occur 3 weeks to 6
+        months after infection and include:
       </p>
       <ul>
-        <li>Abgeschlagenheit</li>
-        <li>Appetitlosigkeit</li>
-        <li>Übelkeit</li>
-        <li>Gelenk- und Muskelschmerzen</li>
-        <li>Leichtes Fieber</li>
+        <li>Exhaustion</li>
+        <li>Loss of appetite</li>
+        <li>Nausea</li>
+        <li>Joint and muscle pain</li>
+        <li>Mild fever</li>
         <li>
-          Gelbfärbung der weißen Teile der Augen, gelbliche
-          Hautfärbung, heller Stuhl, dunkler Urin und
-          Hautjucken (Symptome einer Gelbsucht)
+          Yellowing of the white parts of the eyes, yellow
+          skin color, light stool, dark urine and itchy skin
+          (symptoms of jaundice)
         </li>
       </ul>
       <p>
-        Unbehandelt kann Hepatitis C zu Leberfibrosen,
-        Leberversagen oder Leberkrebs führen.
+        If left untreated, Hepatitis C can lead to liver
+        fibrosis, liver failure, or liver cancer.
       </p>
 
       <h3 className={classes.title}>HIV</h3>
       <p>
-        HIV ist eine Infektionskrankheit, die vor allem bei
-        ungeschütztem Sex übertragen wird. Die ersten
-        Symptome treten meistens 6 Tage bis 6 Wochen nach
-        der Ansteckung auf und ähneln einer Grippe:
+        HIV is an infectious disease that is mainly
+        transmitted through unprotected sex. The first
+        symptoms usually occur 6 days to 6 weeks after
+        infection and resemble the flu:
       </p>
       <ul>
-        <li>Müdigkeit</li>
-        <li>Kopfschmerzen</li>
-        <li>Erschöpfung</li>
-        <li>Verminderte körperliche Leistungsfähigkeit</li>
-        <li>Fieber</li>
-        <li>Nachtschweiß</li>
-        <li>Durchfall</li>
-        <li>Geschwollene Lymphknoten und Rachenmandeln</li>
-        <li>Muskel- und Gliederschmerzen</li>
-        <li>Appetitlosigkeit</li>
-        <li>Hautausschlag</li>
+        <li>Fatigue</li>
+        <li>Headaches</li>
+        <li>Exhaustion</li>
+        <li>Decreased physical performance</li>
+        <li>Fever</li>
+        <li>Night sweats</li>
+        <li>Diarrhea</li>
+        <li>Swollen lymph nodes and tonsils</li>
+        <li>Muscle and limb pain</li>
+        <li>Loss of appetite</li>
+        <li>Skin rash</li>
       </ul>
       <p>
-        Ohne Behandlung kann sich eine akute HIV-Infektion
-        zu einem chronischen HIV-Stadium weiterentwickeln,
-        das zu weiteren gesundheitlichen Problemen und
-        schließlich AIDS führen kann.
+        Without treatment, an acute HIV infection can
+        develop into a chronic HIV stage, which can lead to
+        further health problems and eventually AIDS.
       </p>
     </div>
   );
