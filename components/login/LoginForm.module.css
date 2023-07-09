@@ -32,7 +32,14 @@
 }
 
 .form button {
-  background-color: #484df5;
+  background: linear-gradient(
+    270deg,
+    #a026af 0%,
+    #ed4789 31.77%,
+    #ed4988 31.78%,
+    #ee7f6b 70.31%,
+    #ea5 99.48%
+  );
   color: white;
   padding: 15px;
   width: 100%;
