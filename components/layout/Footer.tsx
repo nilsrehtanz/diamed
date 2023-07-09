@@ -50,7 +50,10 @@ function Footer() {
           <img
             src="UNTERNEHMERTUMLogo.svg"
             alt="UnternehmerTUM"
-            className={classes.unternehmerLogo}
+          ></img>
+          <img
+            src="quantum_diamonds_logo.png"
+            alt="Quantum diamonds"
           ></img>
         </div>
       </div>
