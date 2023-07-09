@@ -8,8 +8,8 @@ const StdArticle: React.FC = () => {
       <h2 className={classes.title}>How do I know if I have an STI?</h2>
       <p className={classes.date}>14th Dec</p>
       <p className={classes.text}> 
-        Did you have sex recently and now it's itching and
-        burning down there? Then it's possible that you have
+        Did you have sex recently and now it&apos;s itching and
+        burning down there? Then it&apos;s possible that you have
         contracted an STI. What exactly this is and how you
         can find out whether your complaints are really an
         STI, you will find out in this post.
@@ -71,7 +71,7 @@ const StdArticle: React.FC = () => {
       <p>
         The secondary syphilis occurs after four to ten
         weeks. It has now spread everywhere through your
-        body's blood and lymphatic pathways. If you are in
+        body&apos;s blood and lymphatic pathways. If you are in
         this stage of syphilis infection, you are usually
         struggling with fever, fatigue and headaches. Often
         a non-itchy rash follows, which occurs everywhere,
