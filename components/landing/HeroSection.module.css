@@ -31,3 +31,13 @@
 .purple {
   color: #c32d67;
 }
+
+@media (max-width: 760px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .content ul {
+    gap: 1rem;
+  }
+}
