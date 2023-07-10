@@ -42,6 +42,12 @@ const QUESTIONS = [
     answer:
       "You have tested positive/ reactive for an STI - no need to panic! Our team of experienced doctors will be in touch with you to offer their guidance, provide a thorough diagnosis and discuss the necessary steps moving forward.",
   },
+  {
+    id: "7",
+    question: "How We Protect Your Privacy?",
+    answer:
+      "Patient Data Protection Act (Patientendatenschutzgesetz - PDSG) guarantees your right to medical privacy and protects your health information from unsolicited access, fraud and abuse. At DiaMed, we strictly adhere to this law, empowering you to control who can access your health information. To maintain transparency and respect your preferences, we will not contact you through phone calls or physical mail. All communication will be conducted via email from “Analyte Health” and charges on your debit or credit card statement will appear as “ANALYTE HEALTH”.",
+  },
 ];
 
 function FaqSection() {
