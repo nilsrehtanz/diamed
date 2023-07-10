@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  height: 400px;
+  margin: auto;
+  color: white;
+}
+
+.quantum {
+  background-color: red;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.symptoms {
+  background-color: aqua;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.treatments {
+  background-color: blue;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.symptomsAndTreatments {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}

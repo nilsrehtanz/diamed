@@ -1,4 +1,4 @@
-import TreatmentsArticle from "../../components/learn/TreatmentsArticle";
+import TreatmentsArticle from "../../components/learn/articles/TreatmentsArticle";
 
 export default function TreatmentsPage() {
   return <TreatmentsArticle></TreatmentsArticle>;
