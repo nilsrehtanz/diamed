@@ -40,7 +40,7 @@ function ExplanationSection() {
   };
 
   const handleClick = () => {
-    console.log("Button clicked!");
+    window.location.href = "mailto:diamed.testkit@gmail.com";
   };
 
   return (

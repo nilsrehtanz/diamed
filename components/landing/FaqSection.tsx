@@ -61,7 +61,6 @@ function FaqSection() {
   return (
     <div className={classes.container}>
       <h1>Frequently Asked Questions</h1>
-      <hr />
       <ul>{questionList}</ul>
     </div>
   );

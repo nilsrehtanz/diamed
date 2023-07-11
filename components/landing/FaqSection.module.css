@@ -4,12 +4,12 @@
 }
 
 .container ul {
-  margin: 0;
+  margin: 3rem 0;
   padding: 0;
 }
 
 @media (max-width: 700px) {
-  .container{
+  .container {
     padding: 10px;
   }
 }

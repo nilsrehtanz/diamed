@@ -13,7 +13,7 @@ function HowItWorksSection() {
         the process as it is very similar to a COVID-19 test. Follow the simple
         instructions given in the test kit and you&apos;re good to go.
       </p>
-      <h3>2. Take sample at home & send it to us</h3>
+      <h3>2. Take a sample at home & send it to us</h3>
       <p>Hassle-free prepaid return shipping. Simply collect, pack & send!</p>
       <h3>3. Get your results digitally</h3>
       <p>

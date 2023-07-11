@@ -39,8 +39,7 @@ function ReturnPolicy() {
 
       <h2>How to Initiate a Return</h2>
       <p>
-        To start a return, you can contact us at [Your
-        Company Support Email or Phone Number]. If your
+        To start a return, you can contact us at diamed.testkit@gmail.com. If your
         return is accepted, we&apos;ll send you a return shipping
         label, as well as instructions on how and where to
         send your package.
