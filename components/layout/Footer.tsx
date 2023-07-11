@@ -47,10 +47,12 @@ function Footer() {
               src="InstagramIcon.svg"
               alt="Instagram"
             ></img>
-            <img
-              src="LinkedInIcon.svg"
-              alt="Linkedin"
-            ></img>
+            <Link href="https://www.linkedin.com/company/diamed-shop/">
+              <img
+                src="LinkedInIcon.svg"
+                alt="Linkedin"
+              ></img>
+            </Link>
           </div>
         </div>
 
