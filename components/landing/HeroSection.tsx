@@ -4,34 +4,41 @@ import Link from "next/link";
 
 function HeroSection() {
   const handleClick = () => {
-    console.log("Button clicked!");
+    window.location.href = "/register";
   };
 
   return (
     <div className={classes.container}>
       <p className={classes.openingSentence}>
-        Introducing quantum technology for at-home STD testing
+        Introducing quantum technology for at-home STD
+        testing
       </p>
       <h1>
         It&apos;s time for STD testing <br />
-        to be <span className={classes.purple}>private.</span>
+        to be{" "}
+        <span className={classes.purple}>private.</span>
       </h1>
       <div className={classes.content}>
         <img src="DiamedTestKit.svg" alt="Test Kit" />
         <ul>
           <li>
             Our mission is to combat the{" "}
-            <span className={classes.purple}>stigma</span> associated with STD
-            testing.
+            <span className={classes.purple}>stigma</span>{" "}
+            associated with STD testing.
           </li>
           <li>
             Every day over{" "}
-            <span className={classes.purple}>1 million STDs</span> are
-            contracted globally, as reported by the WHO
+            <span className={classes.purple}>
+              1 million STDs
+            </span>{" "}
+            are contracted globally, as reported by the WHO
           </li>
           <li>
-            Using <span className={classes.purple}>quantum diamond chips</span>,
-            we&apos;re the first in Germany to enable{" "}
+            Using{" "}
+            <span className={classes.purple}>
+              quantum diamond chips
+            </span>
+            , we&apos;re the first in Germany to enable{" "}
             <span className={classes.purple}>
               HIV testing based on a saliva sample
             </span>{" "}
@@ -39,7 +46,10 @@ function HeroSection() {
           </li>
         </ul>
       </div>
-      <Button text="Get your kit now" onClick={handleClick}></Button>
+      <Button
+        text="Get your kit now"
+        onClick={handleClick}
+      ></Button>
     </div>
   );
 }

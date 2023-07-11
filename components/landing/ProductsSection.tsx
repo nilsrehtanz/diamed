@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function ProductsSection() {
   const handleClick = () => {
-    console.log("Button clicked!");
+    window.location.href = "/register";
   };
 
   return (
