@@ -9,7 +9,8 @@
 }
 
 .quantum {
-  background-color: red;
+  background-image: url('/quantum.jpeg');
+  background-size: cover;
   height: 100%;
   width: 50%;
   display: flex;
@@ -18,7 +19,8 @@
 }
 
 .symptoms {
-  background-color: aqua;
+  background-image: url('/symptoms.webp');
+  background-size: cover;
   height: 50%;
   display: flex;
   justify-content: center;
@@ -26,7 +28,8 @@
 }
 
 .treatments {
-  background-color: blue;
+  background-image: url('/treatments.jpeg');
+  background-size: cover;
   height: 50%;
   display: flex;
   justify-content: center;
