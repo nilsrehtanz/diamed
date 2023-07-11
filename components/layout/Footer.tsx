@@ -13,8 +13,6 @@ function Footer() {
           <Link href="/shipping">
             <p>Shipping information</p>
           </Link>
-
-          <p>FAQ</p>
           <Link href="mailto:diamed.testkit@gmail.com">
             <p>Contact</p>
           </Link>
