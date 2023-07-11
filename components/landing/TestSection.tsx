@@ -7,14 +7,20 @@ function TestSection() {
     <div className={classes.container}>
       <div>
         <h2>
-          Test yourself for the most common <br />
-          <span>sexually transmitted diseases - STDs.</span>
+          Benefits of Our Unique Quantum Sensing Technology{" "}
+          <br />
+          <span>
+            to test you for sexually transmitted diseases -
+            STDs.
+          </span>
         </h2>
         <ul>
+          <li>Increased accuracy</li>
           <li>
-            Increased accuracy and faster results thanks to
-            quantum technology
+            100.000 times more sensitive tests enabling much
+            earlier diagnosis
           </li>
+          <li>Faster results (&lt;1 day)</li>
           <li>
             Test yourself from the comfort of your home
           </li>
