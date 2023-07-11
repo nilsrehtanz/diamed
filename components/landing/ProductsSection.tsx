@@ -29,7 +29,10 @@ function ProductsSection() {
             ></Button>
           </div>
         </li>
-        <li>
+        <li className={classes.comingSoon}>
+          <div className={classes.comingSoonText}>
+            Coming soon
+          </div>
           <p className={classes.price}>€79.90</p>
           <div>
             <h5>Advanced test</h5>
@@ -44,7 +47,10 @@ function ProductsSection() {
             </ul>
           </div>
         </li>
-        <li>
+        <li className={classes.comingSoon}>
+          <div className={classes.comingSoonText}>
+            Coming soon
+          </div>
           <p className={classes.price}>€129.90</p>
           <div>
             <h5>Allround test</h5>

@@ -49,6 +49,7 @@
 .productsList button {
   margin-top: auto;
   align-self: center;
+  margin-left: 80px;
 }
 
 .divider {
@@ -56,6 +57,28 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.comingSoon {
+  position: relative;
+  overflow: hidden;
+  background: rgba(128, 128, 128, 0.4);
+}
+
+.comingSoonText {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: bold;
+  transform: rotate(-45deg);
+  text-align: center;
 }
 
 @media (max-width: 1200px) {
