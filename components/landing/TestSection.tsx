@@ -10,8 +10,7 @@ function TestSection() {
           Benefits of Our Unique Quantum Sensing Technology{" "}
           <br />
           <span>
-            to test you for sexually transmitted diseases -
-            STDs.
+            for sexually transmitted diseases - STDs.
           </span>
         </h2>
         <ul>
