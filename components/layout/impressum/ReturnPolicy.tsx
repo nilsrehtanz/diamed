@@ -41,7 +41,7 @@ function ReturnPolicy() {
       <p>
         To start a return, you can contact us at [Your
         Company Support Email or Phone Number]. If your
-        return is accepted, we'll send you a return shipping
+        return is accepted, we&apos;ll send you a return shipping
         label, as well as instructions on how and where to
         send your package.
       </p>

@@ -22,7 +22,7 @@ function ShippingInformation() {
         processing time is 24-48 hours for your order. We
         will keep you updated every step of the way - you
         will receive emails from us when your order is
-        confirmed, and then when it's shipped.
+        confirmed, and then when it&apos;s shipped.
       </p>
 
       <h2>Shipping Rates</h2>
