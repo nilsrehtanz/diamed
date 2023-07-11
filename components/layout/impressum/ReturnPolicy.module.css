@@ -1,0 +1,22 @@
+.container {
+    margin: auto;
+    padding: 20px;
+    max-width: 800px;
+    line-height: 1.5;
+  }
+  
+  .container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .container h2 {
+    font-size: 1.5em;
+    margin: 20px 0 10px;
+  }
+  
+  .container p {
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  

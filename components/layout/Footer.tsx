@@ -10,14 +10,25 @@ function Footer() {
           <p>2023 diamed. All rights reserved.</p>
         </div>
         <div className={classes.gridItem}>
-          <p>Shipping information</p>
+          <Link href="/shipping">
+            <p>Shipping information</p>
+          </Link>
+
           <p>FAQ</p>
-          <p>Contact</p>
+          <Link href="mailto:diamed.testkit@gmail.com">
+            <p>Contact</p>
+          </Link>
         </div>
         <div className={classes.gridItem}>
-          <p>Return policy</p>
-          <p>Terms & conditions</p>
-          <p>Cookie preferences</p>
+          <Link href="/return">
+            <p>Return policy</p>
+          </Link>
+          <Link href="/terms">
+            <p>Terms & conditions</p>
+          </Link>
+          <Link href="/cookies">
+            <p>Cookie preferences</p>
+          </Link>
         </div>
       </div>
 
@@ -46,15 +57,21 @@ function Footer() {
         </div>
 
         <div className={classes.partners}>
-          <img src="TUMLogo.svg" alt="TUM"></img>
-          <img
-            src="UNTERNEHMERTUMLogo.svg"
-            alt="UnternehmerTUM"
-          ></img>
-          <img
-            src="quantum_diamonds_logo.png"
-            alt="Quantum diamonds"
-          ></img>
+          <Link href="https://www.tum.de/">
+            <img src="TUMLogo.svg" alt="TUM" />
+          </Link>
+          <Link href="https://www.unternehmertum.de/">
+            <img
+              src="UNTERNEHMERTUMLogo.svg"
+              alt="UnternehmerTUM"
+            />
+          </Link>
+          <Link href="https://www.quantumdiamonds.de/">
+            <img
+              src="quantum_diamonds_logo.png"
+              alt="Quantum diamonds"
+            />
+          </Link>
         </div>
       </div>
     </footer>
