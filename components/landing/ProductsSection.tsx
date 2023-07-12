@@ -54,7 +54,7 @@ function ProductsSection() {
           <p className={classes.price}>€129.90</p>
           <div>
             <h5>Allround test</h5>
-            <h6>Biosample: Blood</h6>
+            <h6>Biosample: Saliva</h6>
             <p>Results within 24 hours</p>
             <p>8 panel test:</p>
             <ul className={classes.stdList}>
