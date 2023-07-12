@@ -16,7 +16,7 @@ function ProductsSection() {
           <div className={classes.divider}>
             <div>
               <h5>HIV test</h5>
-              <h6>Biosample: Saliva</h6>
+              <h6>Biosample: Blood</h6>
               <p>Results within 24 hours</p>
               <p>1 panel test:</p>
               <ul className={classes.stdList}>
