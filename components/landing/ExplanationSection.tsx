@@ -123,7 +123,7 @@ function ExplanationSection() {
           </div>
         </div>
         <div className={classes.gridItem} style={removePadding}>
-          <img src="howcanapersongetanstd.svg" alt="Person test std" />
+          <img src="testkitOverview.jpg" alt="Person test std" />
         </div>
       </div>
       <p>Have unanswered questions? Get in touch today!</p>
