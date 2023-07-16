@@ -1,7 +1,19 @@
+import React, { useState } from "react";
 import Button from "../ui/Button";
 import classes from "./OfferBanner.module.css";
+import EmailSubscriptionModal from "./../ui/EmailSubscriptionModal";
 
-function OfferBanner() {
+const OfferBanner: React.FC = () => {
+  const [open, setOpen] = useState<boolean>(false);
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   return (
     <div className={classes.background}>
       <div className={classes.container}>
@@ -9,10 +21,14 @@ function OfferBanner() {
           Exclusive Offer: Buy one kit, get 20% OFF each
           additional kit.
         </p>
-        <button>Buy now</button>
+        <button onClick={handleOpen}>Buy now</button>
+        <EmailSubscriptionModal
+          open={open}
+          handleClose={handleClose}
+        />
       </div>
     </div>
   );
-}
+};
 
 export default OfferBanner;

@@ -64,16 +64,15 @@ function LoginForm() {
         </div>
         <button type="submit">LOGIN</button>
         <p className={classes.seperator}>OR</p>
-        <button type="submit">Login with Google</button>
+        <p>
+          Don't have an account?{" "}
+          <Link href="/register">Sign up</Link>
+        </p>
         <p className={classes.termsAndServices}>
-          By clicking login you agree to the terms of
+          By clicking Sign up, you agree to the terms of
           service and privacy policy
         </p>
         <p>Forgot your password?</p>
-        <p>
-          Dont&apos;t have an account?{" "}
-          <Link href="/register">Sign up</Link>
-        </p>
       </form>
     </div>
   );

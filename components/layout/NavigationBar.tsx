@@ -47,7 +47,7 @@ const NavigationBar = () => {
               <Link href="/login">Sign In</Link>
             </li>
             <li onClick={disappearNavBar}>
-              <Link href="/register">Register Kit</Link>
+              <Link href="/register_kit">Register Kit</Link>
             </li>
           </ul>
         </div>

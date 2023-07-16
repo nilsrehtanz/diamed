@@ -1,10 +1,17 @@
+import React, { useState } from "react";
 import Button from "../ui/Button";
 import classes from "./HeroSection.module.css";
-import Link from "next/link";
+import EmailSubscriptionModal from "./../ui/EmailSubscriptionModal";
 
-function HeroSection() {
-  const handleClick = () => {
-    window.location.href = "/register";
+const HeroSection: React.FC = () => {
+  const [open, setOpen] = useState<boolean>(false);
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
   };
 
   return (
@@ -48,10 +55,14 @@ function HeroSection() {
       </div>
       <Button
         text="Get your kit now"
-        onClick={handleClick}
+        onClick={handleOpen}
       ></Button>
+      <EmailSubscriptionModal
+        open={open}
+        handleClose={handleClose}
+      />
     </div>
   );
-}
+};
 
 export default HeroSection;
