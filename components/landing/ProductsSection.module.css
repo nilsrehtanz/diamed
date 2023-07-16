@@ -81,6 +81,29 @@
   text-align: center;
 }
 
+.modalBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350;
+  background-color: rgb(241, 198, 168);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalBox input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+
 @media (max-width: 1200px) {
   .productsList {
     flex-direction: column;

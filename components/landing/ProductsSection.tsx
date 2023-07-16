@@ -1,10 +1,55 @@
+import { useState } from "react";
 import Button from "../ui/Button";
 import classes from "./ProductsSection.module.css";
-import Link from "next/link";
+
+import ButtonM from "@material-ui/core/Button";
+import { Modal } from "@material-ui/core";
 
 function ProductsSection() {
-  const handleClick = () => {
-    window.location.href = "/register";
+  // const handleClick = () => {
+  //   window.location.href = "/register";
+  // };
+
+  const [open, setOpen] = useState(false);
+  const [email, setEmail] = useState("");
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const submitHandler = async (event: {
+    preventDefault: () => void;
+  }) => {
+    event.preventDefault();
+
+    // add validation here
+
+    const response = await fetch("/api/newsletter", {
+      method: "POST",
+      body: JSON.stringify({ email }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      alert("Something went wrong! Please try again.");
+      throw new Error(
+        data.message || "Something went wrong."
+      );
+    }
+
+    // reset email field
+    setEmail("");
+
+    // Close the modal
+    handleClose();
   };
 
   return (
@@ -25,8 +70,39 @@ function ProductsSection() {
             </div>
             <Button
               text="Buy now"
-              onClick={handleClick}
+              onClick={handleOpen}
             ></Button>
+            <Modal
+              open={open}
+              onClose={handleClose}
+              aria-labelledby="modal-modal-title"
+              aria-describedby="modal-modal-description"
+            >
+              <div className={classes.modalBox}>
+                <h3>Sorry, we're currently sold out.</h3>
+                <p>
+                  Please subscribe to our newsletter to be
+                  notified once we're back in stock.
+                </p>
+                <form onSubmit={submitHandler}>
+                  <input
+                    type="text"
+                    value={email}
+                    onChange={(e) =>
+                      setEmail(e.target.value)
+                    }
+                    placeholder="Email Address"
+                  />
+                  <ButtonM
+                    type="submit"
+                    variant="contained"
+                    color="primary"
+                  >
+                    Subscribe
+                  </ButtonM>
+                </form>
+              </div>
+            </Modal>
           </div>
         </li>
         <li className={classes.comingSoon}>
