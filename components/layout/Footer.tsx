@@ -16,6 +16,9 @@ function Footer() {
           <Link href="mailto:diamed.testkit@gmail.com">
             <p>Contact</p>
           </Link>
+          <Link href="/imprint">
+            <p>Imprint</p>
+          </Link>
         </div>
         <div className={classes.gridItem}>
           <Link href="/return">
