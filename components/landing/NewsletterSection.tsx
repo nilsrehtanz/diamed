@@ -1,15 +1,46 @@
-import Button from "../ui/Button";
+import { useState, FormEvent } from "react";
 import classes from "./NewsletterSection.module.css";
-import Link from "next/link";
 
 function NewsletterSection() {
+  const [email, setEmail] = useState("");
+
+  const submitHandler = async (event: FormEvent) => {
+    event.preventDefault();
+
+    // add validation here
+
+    const response = await fetch("/api/newsletter", {
+      method: "POST",
+      body: JSON.stringify({ email }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(
+        data.message || "Something went wrong."
+      );
+    }
+
+    // reset email field
+    setEmail("");
+
+    alert("Successfully signed up for the newsletter!");
+  };
+
   return (
     <div className={classes.background}>
       <div className={classes.container}>
         <h2>
           Be the first to get updates <br /> to your inbox.
         </h2>
-        <div className={classes.inputSection}>
+        <form
+          className={classes.inputSection}
+          onSubmit={submitHandler}
+        >
           <p>
             Keep up-to-date with new discoveries and
             exclusive promotions on our HIV and STD testing
@@ -19,10 +50,12 @@ function NewsletterSection() {
             <input
               type="text"
               placeholder="Email Address"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
-            <button>Sign up</button>
+            <button type="submit">Sign up</button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   );
