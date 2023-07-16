@@ -50,10 +50,10 @@ const EmailSubscriptionModal: React.FC<
       aria-describedby="modal-modal-description"
     >
       <div className={classes.modalBox}>
-        <h3>Sorry, we're currently sold out.</h3>
+        <h3>Sorry, we&apos;re currently sold out.</h3>
         <p>
           Please subscribe to our newsletter to be notified
-          once we're back in stock.
+          once we&apos;re back in stock.
         </p>
         <form onSubmit={submitHandler}>
           <input

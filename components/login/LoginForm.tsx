@@ -65,7 +65,7 @@ function LoginForm() {
         <button type="submit">LOGIN</button>
         <p className={classes.seperator}>OR</p>
         <p>
-          Don't have an account?{" "}
+          Don&apos;t have an account?{" "}
           <Link href="/register">Sign up</Link>
         </p>
         <p className={classes.termsAndServices}>
