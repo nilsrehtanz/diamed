@@ -9,7 +9,7 @@
 }
 
 .quantum {
-  background-image: url('/quantum.jpeg');
+  background-image: url("/quantum.jpeg");
   background-size: cover;
   height: 100%;
   width: 50%;
@@ -19,7 +19,7 @@
 }
 
 .symptoms {
-  background-image: url('/symptoms.webp');
+  background-image: url("/symptoms.webp");
   background-size: cover;
   height: 50%;
   display: flex;
@@ -28,7 +28,7 @@
 }
 
 .treatments {
-  background-image: url('/treatments.jpeg');
+  background-image: url("/treatments.jpeg");
   background-size: cover;
   height: 50%;
   display: flex;
