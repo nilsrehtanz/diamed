@@ -7,6 +7,7 @@ import HowItWorksSection from "../components/landing/HowItWorksSection";
 import SupportSection from "../components/landing/SupportSection";
 import FaqSection from "../components/landing/FaqSection";
 import NewsletterSection from "../components/landing/NewsletterSection";
+import VideoComponent from "../components/landing/VideoSection";
 import styles from "../styles/LandingPage.module.css";
 
 export default function LandingPage() {
@@ -14,6 +15,7 @@ export default function LandingPage() {
     <div className={styles.container}>
       <OfferBanner></OfferBanner>
       <HeroSection></HeroSection>
+      <VideoComponent></VideoComponent>
       <ProductsSection></ProductsSection>
       <TestSection></TestSection>
       <ExplanationSection></ExplanationSection>

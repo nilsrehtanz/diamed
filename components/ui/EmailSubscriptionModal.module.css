@@ -5,7 +5,7 @@
   transform: translate(-50%, -50%);
   width: 350;
   background-color: rgb(241, 198, 168);
-  padding: 20px;
+  padding: 25px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -19,4 +19,14 @@
   padding: 10px;
   width: 200px;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .modalBox form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 }
