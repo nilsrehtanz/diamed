@@ -44,7 +44,6 @@ function Footer() {
             ></img>
             <p>Germany</p>
           </div>
-
           <div>
             <img
               src="InstagramIcon.svg"
