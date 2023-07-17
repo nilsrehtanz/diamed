@@ -1,15 +1,20 @@
-import { useState, FormEvent } from "react";
+import { useState } from "react";
 import classes from "./LoginForm.module.css";
 import Link from "next/link";
+import { useRouter } from "next/router"; // Import the useRouter hook
+import { useUser } from "../../contexts/UserContext"; // Import the useUser hook
 
 function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  const { setUser } = useUser(); // Destructure setUser from useUser
+  const router = useRouter(); // Instantiate the router
+
   const submitHandler = async (event) => {
     event.preventDefault();
 
-    // add validation here
+    // Add validation here
 
     const response = await fetch("/api/login", {
       method: "POST",
@@ -30,15 +35,19 @@ function LoginForm() {
       );
     }
 
-    // save the token to the local storage, you might also want to save the user id
+    // Save the token to the local storage, you might also want to save the user id
     localStorage.setItem("token", data.token);
     localStorage.setItem("userId", data.userId);
 
-    // reset form
+    // Update the global user state
+    setUser({ token: data.token, userId: data.userId });
+
+    // Reset form
     setEmail("");
     setPassword("");
 
-    // do something after successful login like redirecting to a different page
+    // Navigate to a different page after successful login
+    router.push("/profile");
   };
 
   return (

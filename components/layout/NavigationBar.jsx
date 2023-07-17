@@ -2,11 +2,14 @@ import { useState } from "react";
 import Link from "next/link";
 import classes from "./NavigationBar.module.css";
 import { useRouter } from "next/router";
+import { useUser } from "../../contexts/UserContext";
 
 const NavigationBar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
   const router = useRouter();
   const currentRoute = router.pathname;
+
+  const { user } = useUser();
 
   const handleShowNavbar = () => {
     console.log(currentRoute);
@@ -47,7 +50,11 @@ const NavigationBar = () => {
               <Link href="/register_kit">Register Kit</Link>
             </li>
             <li onClick={disappearNavBar}>
-              <Link href="/login">Sign In</Link>
+              {user ? (
+                <Link href="/profile">Profile</Link>
+              ) : (
+                <Link href="/login">Sign In</Link>
+              )}
             </li>
           </ul>
         </div>
