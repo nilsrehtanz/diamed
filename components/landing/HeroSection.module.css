@@ -43,4 +43,8 @@
     margin: 0;
     padding: 1rem;
   }
+
+  .content img {
+    max-height: 280px;
+  }
 }

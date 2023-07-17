@@ -44,10 +44,10 @@ const NavigationBar = () => {
               <Link href="/learn">Learn</Link>
             </li>
             <li onClick={disappearNavBar}>
-              <Link href="/login">Sign In</Link>
+              <Link href="/register_kit">Register Kit</Link>
             </li>
             <li onClick={disappearNavBar}>
-              <Link href="/register_kit">Register Kit</Link>
+              <Link href="/login">Sign In</Link>
             </li>
           </ul>
         </div>
