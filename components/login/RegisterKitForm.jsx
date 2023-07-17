@@ -7,7 +7,7 @@ function RegisterKitForm() {
   const [password, setPassword] = useState("");
   const [testKitNumber, setTestKitNumber] = useState("");
 
-  const submitHandler = async (event: FormEvent) => {
+  const submitHandler = async (event) => {
     event.preventDefault();
 
     alert(

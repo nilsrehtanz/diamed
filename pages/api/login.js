@@ -1,19 +1,12 @@
-// pages/api/login.ts
+// pages/api/login.js
 
-import { NextApiRequest, NextApiResponse } from "next";
-import { MongoClient, Db } from "mongodb";
+import { MongoClient } from "mongodb";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
-async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
+async function handler(req, res) {
   if (req.method === "POST") {
-    const {
-      email,
-      password,
-    }: { email: string; password: string } = req.body;
+    const { email, password } = req.body;
 
     if (!email || !password) {
       res.status(422).json({ message: "Invalid input." });
@@ -24,7 +17,7 @@ async function handler(
 
     try {
       client = await MongoClient.connect(
-        process.env.MONGODB_URI!
+        process.env.MONGODB_URI
       );
     } catch (error) {
       res
@@ -35,13 +28,11 @@ async function handler(
       return;
     }
 
-    const db: Db = client.db();
+    const db = client.db();
 
     const usersCollection = db.collection("users");
 
-    const user = await usersCollection.findOne({
-      email: email,
-    });
+    const user = await usersCollection.findOne({ email });
 
     if (!user) {
       res.status(404).json({ message: "User not found." });
@@ -62,7 +53,7 @@ async function handler(
 
     const token = jwt.sign(
       { userId: user._id, email: user.email },
-      process.env.JWT_SECRET!,
+      process.env.JWT_SECRET,
       { expiresIn: "1h" }
     );
 

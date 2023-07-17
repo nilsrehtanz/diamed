@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Button from "../ui/Button";
 import classes from "./OfferBanner.module.css";
-import EmailSubscriptionModal from "./../ui/EmailSubscriptionModal";
+import EmailSubscriptionModal from "../ui/EmailSubscriptionModal";
 
-const OfferBanner: React.FC = () => {
-  const [open, setOpen] = useState<boolean>(false);
+const OfferBanner = () => {
+  const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
     setOpen(true);

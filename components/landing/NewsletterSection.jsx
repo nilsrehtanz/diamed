@@ -4,7 +4,7 @@ import classes from "./NewsletterSection.module.css";
 function NewsletterSection() {
   const [email, setEmail] = useState("");
 
-  const submitHandler = async (event: FormEvent) => {
+  const submitHandler = async (event) => {
     event.preventDefault();
 
     // add validation here

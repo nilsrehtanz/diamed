@@ -10,7 +10,7 @@ function RegisterForm() {
   const [confirmPassword, setConfirmPassword] =
     useState("");
 
-  const submitHandler = async (event: FormEvent) => {
+  const submitHandler = async (event) => {
     event.preventDefault();
 
     // add validation here, especially for the password and confirm password fields

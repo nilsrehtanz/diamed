@@ -1,19 +1,12 @@
-import React, { useState, SyntheticEvent } from "react";
+import React, { useState } from "react";
 import { Modal } from "@material-ui/core";
 import ButtonM from "@material-ui/core/Button";
 import classes from "./EmailSubscriptionModal.module.css";
 
-interface EmailSubscriptionModalProps {
-  open: boolean;
-  handleClose: () => void;
-}
+const EmailSubscriptionModal = ({ open, handleClose }) => {
+  const [email, setEmail] = useState("");
 
-const EmailSubscriptionModal: React.FC<
-  EmailSubscriptionModalProps
-> = ({ open, handleClose }) => {
-  const [email, setEmail] = useState<string>("");
-
-  const submitHandler = async (event: SyntheticEvent) => {
+  const submitHandler = async (event) => {
     event.preventDefault();
 
     // add validation here

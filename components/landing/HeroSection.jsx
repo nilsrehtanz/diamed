@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Button from "../ui/Button";
 import classes from "./HeroSection.module.css";
-import EmailSubscriptionModal from "./../ui/EmailSubscriptionModal";
+import EmailSubscriptionModal from "../ui/EmailSubscriptionModal";
 
-const HeroSection: React.FC = () => {
-  const [open, setOpen] = useState<boolean>(false);
+const HeroSection = () => {
+  const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
     setOpen(true);

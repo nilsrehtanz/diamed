@@ -1,7 +1,6 @@
-import { NextApiRequest, NextApiResponse } from 'next';
 import { MongoClient } from 'mongodb';
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+export default async function handler(req, res) {
   if (req.method === 'POST') {
     const { email } = req.body;
 
@@ -13,7 +12,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     let client;
 
     try {
-      client = await MongoClient.connect(process.env.MONGODB_URI!);
+      client = await MongoClient.connect(process.env.MONGODB_URI);
     } catch (error) {
       res.status(500).json({ message: 'Could not connect to the database.' });
       return;

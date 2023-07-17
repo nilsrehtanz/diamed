@@ -2,7 +2,7 @@ import classes from "./QuantumTechArticle.module.css";
 import React from "react";
 import Image from "next/image";
 
-const QuantumTechArticle: React.FC = () => {
+const QuantumTechArticle = () => {
   return (
     <div className={classes.container}>
       <h2 className={classes.title}>

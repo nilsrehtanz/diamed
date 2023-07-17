@@ -6,7 +6,7 @@ function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const submitHandler = async (event: FormEvent) => {
+  const submitHandler = async (event) => {
     event.preventDefault();
 
     // add validation here

@@ -1,25 +1,9 @@
-// pages/api/signup.ts
-
-import { NextApiRequest, NextApiResponse } from "next";
-import { MongoClient, Db } from "mongodb";
+import { MongoClient } from "mongodb";
 import bcrypt from "bcryptjs";
 
-async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
+async function handler(req, res) {
   if (req.method === "POST") {
-    const {
-      name,
-      firstName,
-      email,
-      password,
-    }: {
-      name: string;
-      firstName: string;
-      email: string;
-      password: string;
-    } = req.body;
+    const { name, firstName, email, password } = req.body;
 
     if (!email || !password || password.trim().length < 7) {
       res.status(422).json({ message: "Invalid input." });
@@ -30,7 +14,7 @@ async function handler(
 
     try {
       client = await MongoClient.connect(
-        process.env.MONGODB_URI!
+        process.env.MONGODB_URI
       );
     } catch (error) {
       res.status(500).json({
@@ -39,7 +23,7 @@ async function handler(
       return;
     }
 
-    const db: Db = client.db();
+    const db = client.db();
 
     const existingUser = await db
       .collection("users")

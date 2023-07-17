@@ -2,7 +2,7 @@ import classes from "./SymptomsArticle.module.css";
 import React from "react";
 import Image from "next/image";
 
-const SymptomsArticle: React.FC = () => {
+const SymptomsArticle = () => {
   return (
     <div className={classes.container}>
       <h2 className={classes.title}>

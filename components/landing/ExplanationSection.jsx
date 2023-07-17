@@ -3,39 +3,39 @@ import classes from "./ExplanationSection.module.css";
 import Link from "next/link";
 
 function ExplanationSection() {
-  const firstStyle: React.CSSProperties = {
+  const firstStyle = {
     background: "#A323B026",
   };
 
-  const secondStyle: React.CSSProperties = {
+  const secondStyle = {
     background: "#A323B04D",
   };
 
-  const thirdStyle: React.CSSProperties = {
+  const thirdStyle = {
     background: "#EC3B8740",
   };
 
-  const fourthStyle: React.CSSProperties = {
+  const fourthStyle = {
     background: "#A323B080",
   };
 
-  const fifthStyle: React.CSSProperties = {
+  const fifthStyle = {
     background: "#EC3B878C",
   };
 
-  const sixtStyle: React.CSSProperties = {
+  const sixtStyle = {
     background: "#A323B0B3",
   };
 
-  const seventhStyle: React.CSSProperties = {
+  const seventhStyle = {
     background: "#EC3B87BF",
   };
 
-  const eigthStyle: React.CSSProperties = {
+  const eigthStyle = {
     background: "#EDA954B3",
   };
 
-  const removePadding: React.CSSProperties = {
+  const removePadding = {
     padding: "0px",
   };
 

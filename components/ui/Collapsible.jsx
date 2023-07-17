@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import classes from "./Collapsible.module.css";
 
-const Collapsible: React.FC<{
-  question: string;
-  answer: string;
-}> = (props) => {
+const Collapsible = (props) => {
   const [open, setOpen] = useState(false);
 
   const toggle = () => {

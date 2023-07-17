@@ -2,7 +2,7 @@ import classes from "./Layout.module.css";
 import NavigationBar from "./NavigationBar";
 import Footer from "./Footer";
 
-const Layout: React.FC<{ children: React.ReactNode }> = (props) => {
+const Layout = (props) => {
   return (
     <div>
       <NavigationBar />
