@@ -18,7 +18,7 @@ function HowItWorksSection() {
       <h3>3. Get your results digitally</h3>
       <p>
         With us, there&apos;s no complicated technical jargon. Just log in on
-        www.diamed.online and review your results online.
+        www.diamed.shop and review your results online.
       </p>
     </div>
   );

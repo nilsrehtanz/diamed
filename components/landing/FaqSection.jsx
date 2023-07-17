@@ -27,13 +27,13 @@ const QUESTIONS = [
     question:
       "How do I get my diamed reports and how long does it take?",
     answer:
-      "To initiate the process, please access www.diamed.online. Once you have registered your testing kit and provided a saliva sample, securely mail the kit to our laboratory. Upon receipt, your sample will undergo an optimized processing protocol. Our dedicated team is committed to minimizing processing time to provide timely results. Following the completion of the analysis, the results will be promptly delivered and made available through your secure online account.",
+      "To initiate the process, please access www.diamed.shop. Once you have registered your testing kit and provided a saliva sample, securely mail the kit to our laboratory. Upon receipt, your sample will undergo an optimized processing protocol. Our dedicated team is committed to minimizing processing time to provide timely results. Following the completion of the analysis, the results will be promptly delivered and made available through your secure online account.",
   },
   {
     id: "5",
     question: "Do diamed STD test kits expire?",
     answer:
-      "We encourage customers to provide their sample before the 'Collect saliva by' date on the side of the collection tube. If your sample collection kit is lost or damaged, or if it has expired, please contact customer care to assist you with getting a replacement kit.",
+      "We encourage customers to provide their sample before the 'Collect sample by' date on the side of the collection tube. If your sample collection kit is lost or damaged, or if it has expired, please contact customer care to assist you with getting a replacement kit.",
   },
   {
     id: "6",
@@ -46,7 +46,7 @@ const QUESTIONS = [
     id: "7",
     question: "How We Protect Your Privacy?",
     answer:
-      "Patient Data Protection Act (Patientendatenschutzgesetz - PDSG) guarantees your right to medical privacy and protects your health information from unsolicited access, fraud and abuse. At DiaMed, we strictly adhere to this law, empowering you to control who can access your health information. To maintain transparency and respect your preferences, we will not contact you through phone calls or physical mail. All communication will be conducted via email from “Analyte Health” and charges on your debit or credit card statement will appear as “ANALYTE HEALTH”.",
+      "Patient Data Protection Act (Patientendatenschutzgesetz - PDSG) guarantees your right to medical privacy and protects your health information from unsolicited access, fraud and abuse. At DiaMed, we strictly adhere to this law, empowering you to control who can access your health information. To maintain transparency and respect your preferences, we will not contact you through phone calls or physical mail.",
   },
 ];
 

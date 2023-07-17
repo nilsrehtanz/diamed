@@ -38,7 +38,7 @@ const HeroSection = () => {
             <span className={classes.purple}>
               1 million STDs
             </span>{" "}
-            are contracted globally, as reported by the WHO
+            are contracted globally, as reported by the WHO.
           </li>
           <li>
             Using{" "}

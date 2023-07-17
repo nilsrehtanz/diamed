@@ -67,13 +67,12 @@ const ProductsSection = () => {
             <h5>Allround test</h5>
             <h6>Biosample: Saliva</h6>
             <p>Results within 24 hours</p>
-            <p>8 panel test:</p>
+            <p>7 panel test:</p>
             <ul className={classes.stdList}>
               <li>HIV</li>
               <li>Chlamydia trachomatis</li>
               <li>Trichomonas vaginalis</li>
               <li>Group B Streptococcus</li>
-              <li>Syphilis (Treponema pallidum)</li>
               <li>Syphilis</li>
               <li>Hepatitis B</li>
               <li>Hepatitis C</li>
