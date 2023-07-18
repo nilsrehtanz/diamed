@@ -1,6 +1,7 @@
 import { useState, FormEvent } from "react";
 import classes from "./RegisterForm.module.css";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 function RegisterForm() {
   const [name, setName] = useState("");
@@ -9,6 +10,7 @@ function RegisterForm() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] =
     useState("");
+  const router = useRouter();
 
   const submitHandler = async (event) => {
     event.preventDefault();
@@ -36,9 +38,13 @@ function RegisterForm() {
     const data = await response.json();
 
     if (!response.ok) {
-      throw new Error(
-        data.message || "Something went wrong."
-      );
+      alert("Please try again with different information!");
+      setName("");
+      setFirstName("");
+      setEmail("");
+      setPassword("");
+      setConfirmPassword("");
+      return;
     }
 
     // reset form
@@ -48,7 +54,8 @@ function RegisterForm() {
     setPassword("");
     setConfirmPassword("");
 
-    // do something after successful signup, like redirecting to a different page
+    alert("Successfully created your account!");
+    router.push("/login");
   };
 
   return (
@@ -104,7 +111,6 @@ function RegisterForm() {
           By clicking login you agree to the terms of
           service and privacy policy
         </p>
-        <p>Forgot your password?</p>
       </form>
     </div>
   );

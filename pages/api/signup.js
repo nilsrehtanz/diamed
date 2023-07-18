@@ -5,7 +5,7 @@ async function handler(req, res) {
   if (req.method === "POST") {
     const { name, firstName, email, password } = req.body;
 
-    if (!email || !password || password.trim().length < 7) {
+    if (!email || !password) {
       res.status(422).json({ message: "Invalid input." });
       return;
     }

@@ -19,7 +19,7 @@ const ProductsSection = () => {
       <h2>Our Products</h2>
       <ul className={classes.productsList}>
         <li>
-          <p className={classes.price}>€29.90</p>
+          <p className={classes.price}>€69.90</p>
           <div className={classes.divider}>
             <div>
               <h5>HIV test</h5>

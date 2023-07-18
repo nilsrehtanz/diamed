@@ -30,9 +30,10 @@ function LoginForm() {
     const data = await response.json();
 
     if (!response.ok) {
-      throw new Error(
-        data.message || "Something went wrong."
-      );
+      alert("Username or password is wrong!");
+      setEmail("");
+      setPassword("");
+      return;
     }
 
     // Save the token to the local storage, you might also want to save the user id
@@ -81,7 +82,6 @@ function LoginForm() {
           By clicking Sign up, you agree to the terms of
           service and privacy policy
         </p>
-        <p>Forgot your password?</p>
       </form>
     </div>
   );
